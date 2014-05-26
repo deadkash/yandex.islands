@@ -1,8 +1,8 @@
 # Генератор Яндекс.островов
 
 ## Использование
-`
-$island = new YandexIsland();
+
+`$island = new YandexIsland();
 
 $island->setRootUrl('http://www.example.com');
 $island->setTitle('Title of island');
