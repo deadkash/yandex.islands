@@ -2,7 +2,8 @@
 
 ## Использование
 
-`$island = new YandexIsland();
+```php
+$island = new YandexIsland();
 
 $island->setRootUrl('http://www.example.com');
 $island->setTitle('Title of island');
@@ -16,4 +17,5 @@ $island->addRangeDate('Дата', 'dateFrom', 'dateTo', 'yyyy-MM-dd', 'Заез�
 $island->addTextBox('Количество человек', 'count', 'AllUnparsed', 40);
 $island->addDropDown('Номер', 'nomer', $values);
 
-$island->export('island.xml');`
+$island->export('island.xml');
+```
